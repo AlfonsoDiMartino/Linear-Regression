@@ -1,0 +1,73 @@
+\hypertarget{_calcolo_errore_8m}{\section{Riferimenti per il file Src/testbench/\+Calcolo\+Errore.m}
+\label{_calcolo_errore_8m}\index{Src/testbench/\+Calcolo\+Errore.\+m@{Src/testbench/\+Calcolo\+Errore.\+m}}
+}
+
+
+\subsection{Documentazione delle funzioni}
+\hypertarget{_calcolo_errore_8m_a88c557addef59ab6fd84f25b44aaea3f}{\index{Calcolo\+Errore.\+m@{Calcolo\+Errore.\+m}!writetable@{writetable}}
+\index{writetable@{writetable}!Calcolo\+Errore.\+m@{Calcolo\+Errore.\+m}}
+\subsubsection[{writetable}]{\setlength{\rightskip}{0pt plus 5cm}writetable (
+\begin{DoxyParamCaption}
+\item[{{\bf T}}]{, }
+\item[{}]{error\+\_\+file, }
+\item[{'Write\+Row\+Names'}]{, }
+\item[{true}]{}
+\end{DoxyParamCaption}
+)}}\label{_calcolo_errore_8m_a88c557addef59ab6fd84f25b44aaea3f}
+
+
+\subsection{Documentazione delle variabili}
+\hypertarget{_calcolo_errore_8m_a17a813ff016f566e53dfb54c93ba2913}{\index{Calcolo\+Errore.\+m@{Calcolo\+Errore.\+m}!dataset@{dataset}}
+\index{dataset@{dataset}!Calcolo\+Errore.\+m@{Calcolo\+Errore.\+m}}
+\subsubsection[{dataset}]{\setlength{\rightskip}{0pt plus 5cm}dataset =textread({\bf dataset\+\_\+file},'\%s')}}\label{_calcolo_errore_8m_a17a813ff016f566e53dfb54c93ba2913}
+\hypertarget{_calcolo_errore_8m_ab6dd4899c2c315660992279d8d20d0bb}{\index{Calcolo\+Errore.\+m@{Calcolo\+Errore.\+m}!dataset\+\_\+file@{dataset\+\_\+file}}
+\index{dataset\+\_\+file@{dataset\+\_\+file}!Calcolo\+Errore.\+m@{Calcolo\+Errore.\+m}}
+\subsubsection[{dataset\+\_\+file}]{\setlength{\rightskip}{0pt plus 5cm}dataset\+\_\+file = 'dataset.\+txt'}}\label{_calcolo_errore_8m_ab6dd4899c2c315660992279d8d20d0bb}
+\hypertarget{_calcolo_errore_8m_aebac6c9afbb1c2fa4efd5a3026e59860}{\index{Calcolo\+Errore.\+m@{Calcolo\+Errore.\+m}!error\+\_\+abs\+\_\+m@{error\+\_\+abs\+\_\+m}}
+\index{error\+\_\+abs\+\_\+m@{error\+\_\+abs\+\_\+m}!Calcolo\+Errore.\+m@{Calcolo\+Errore.\+m}}
+\subsubsection[{error\+\_\+abs\+\_\+m}]{\setlength{\rightskip}{0pt plus 5cm}error\+\_\+abs\+\_\+m = abs({\bf m\+\_\+vivado} -\/ {\bf m\+\_\+matlab})}}\label{_calcolo_errore_8m_aebac6c9afbb1c2fa4efd5a3026e59860}
+\hypertarget{_calcolo_errore_8m_a1d6ab9cc0bea9cdef77ede925bd29cfe}{\index{Calcolo\+Errore.\+m@{Calcolo\+Errore.\+m}!error\+\_\+abs\+\_\+q@{error\+\_\+abs\+\_\+q}}
+\index{error\+\_\+abs\+\_\+q@{error\+\_\+abs\+\_\+q}!Calcolo\+Errore.\+m@{Calcolo\+Errore.\+m}}
+\subsubsection[{error\+\_\+abs\+\_\+q}]{\setlength{\rightskip}{0pt plus 5cm}error\+\_\+abs\+\_\+q =abs({\bf q\+\_\+vivado}-\/{\bf q\+\_\+matlab})}}\label{_calcolo_errore_8m_a1d6ab9cc0bea9cdef77ede925bd29cfe}
+\hypertarget{_calcolo_errore_8m_a4e101179605aba551caa2576fd83a1dd}{\index{Calcolo\+Errore.\+m@{Calcolo\+Errore.\+m}!error\+\_\+file@{error\+\_\+file}}
+\index{error\+\_\+file@{error\+\_\+file}!Calcolo\+Errore.\+m@{Calcolo\+Errore.\+m}}
+\subsubsection[{error\+\_\+file}]{\setlength{\rightskip}{0pt plus 5cm}error\+\_\+file = 'error\+Post\+Imp.\+csv'}}\label{_calcolo_errore_8m_a4e101179605aba551caa2576fd83a1dd}
+\hypertarget{_calcolo_errore_8m_a22ab2adb81549dec89cf31702ac51df0}{\index{Calcolo\+Errore.\+m@{Calcolo\+Errore.\+m}!error\+\_\+rel\+\_\+m@{error\+\_\+rel\+\_\+m}}
+\index{error\+\_\+rel\+\_\+m@{error\+\_\+rel\+\_\+m}!Calcolo\+Errore.\+m@{Calcolo\+Errore.\+m}}
+\subsubsection[{error\+\_\+rel\+\_\+m}]{\setlength{\rightskip}{0pt plus 5cm}error\+\_\+rel\+\_\+m =abs({\bf m\+\_\+vivado}-\/{\bf m\+\_\+matlab})./{\bf m\+\_\+matlab}}}\label{_calcolo_errore_8m_a22ab2adb81549dec89cf31702ac51df0}
+\hypertarget{_calcolo_errore_8m_ad2984e86333b530866db72d826aacb2c}{\index{Calcolo\+Errore.\+m@{Calcolo\+Errore.\+m}!error\+\_\+rel\+\_\+q@{error\+\_\+rel\+\_\+q}}
+\index{error\+\_\+rel\+\_\+q@{error\+\_\+rel\+\_\+q}!Calcolo\+Errore.\+m@{Calcolo\+Errore.\+m}}
+\subsubsection[{error\+\_\+rel\+\_\+q}]{\setlength{\rightskip}{0pt plus 5cm}error\+\_\+rel\+\_\+q =abs({\bf q\+\_\+vivado}-\/{\bf q\+\_\+matlab})./{\bf q\+\_\+matlab}}}\label{_calcolo_errore_8m_ad2984e86333b530866db72d826aacb2c}
+\hypertarget{_calcolo_errore_8m_a6280fd49598ab608d04d1614908bd985}{\index{Calcolo\+Errore.\+m@{Calcolo\+Errore.\+m}!m\+\_\+matlab@{m\+\_\+matlab}}
+\index{m\+\_\+matlab@{m\+\_\+matlab}!Calcolo\+Errore.\+m@{Calcolo\+Errore.\+m}}
+\subsubsection[{m\+\_\+matlab}]{\setlength{\rightskip}{0pt plus 5cm}m\+\_\+matlab =bin2num(quantizer(\mbox{[}24 13\mbox{]}),{\bf m\+\_\+matlab\+\_\+bin})}}\label{_calcolo_errore_8m_a6280fd49598ab608d04d1614908bd985}
+\hypertarget{_calcolo_errore_8m_ae36cdc892727b0a3ab1787e3b8911242}{\index{Calcolo\+Errore.\+m@{Calcolo\+Errore.\+m}!m\+\_\+matlab\+\_\+bin@{m\+\_\+matlab\+\_\+bin}}
+\index{m\+\_\+matlab\+\_\+bin@{m\+\_\+matlab\+\_\+bin}!Calcolo\+Errore.\+m@{Calcolo\+Errore.\+m}}
+\subsubsection[{m\+\_\+matlab\+\_\+bin}]{\setlength{\rightskip}{0pt plus 5cm}m\+\_\+matlab\+\_\+bin = {\bf dataset}(3\+:4\+:end)}}\label{_calcolo_errore_8m_ae36cdc892727b0a3ab1787e3b8911242}
+\hypertarget{_calcolo_errore_8m_a215b43bd10c1abaf6c2058614591f571}{\index{Calcolo\+Errore.\+m@{Calcolo\+Errore.\+m}!m\+\_\+vivado@{m\+\_\+vivado}}
+\index{m\+\_\+vivado@{m\+\_\+vivado}!Calcolo\+Errore.\+m@{Calcolo\+Errore.\+m}}
+\subsubsection[{m\+\_\+vivado}]{\setlength{\rightskip}{0pt plus 5cm}m\+\_\+vivado =bin2num(quantizer(\mbox{[}24 13\mbox{]}),{\bf m\+\_\+vivado\+\_\+bin})}}\label{_calcolo_errore_8m_a215b43bd10c1abaf6c2058614591f571}
+\hypertarget{_calcolo_errore_8m_a8021bbbc8fbd2af7da73592440faea74}{\index{Calcolo\+Errore.\+m@{Calcolo\+Errore.\+m}!m\+\_\+vivado\+\_\+bin@{m\+\_\+vivado\+\_\+bin}}
+\index{m\+\_\+vivado\+\_\+bin@{m\+\_\+vivado\+\_\+bin}!Calcolo\+Errore.\+m@{Calcolo\+Errore.\+m}}
+\subsubsection[{m\+\_\+vivado\+\_\+bin}]{\setlength{\rightskip}{0pt plus 5cm}m\+\_\+vivado\+\_\+bin = {\bf out}(1\+:2\+:end)}}\label{_calcolo_errore_8m_a8021bbbc8fbd2af7da73592440faea74}
+\hypertarget{_calcolo_errore_8m_a2a89187d8e8e8fba509ef9ab5f815d88}{\index{Calcolo\+Errore.\+m@{Calcolo\+Errore.\+m}!out@{out}}
+\index{out@{out}!Calcolo\+Errore.\+m@{Calcolo\+Errore.\+m}}
+\subsubsection[{out}]{\setlength{\rightskip}{0pt plus 5cm}out =textread({\bf vivado\+\_\+output\+\_\+file}, '\%s')}}\label{_calcolo_errore_8m_a2a89187d8e8e8fba509ef9ab5f815d88}
+\hypertarget{_calcolo_errore_8m_ae0ba6f87f318da799b999bc44504e445}{\index{Calcolo\+Errore.\+m@{Calcolo\+Errore.\+m}!q\+\_\+matlab@{q\+\_\+matlab}}
+\index{q\+\_\+matlab@{q\+\_\+matlab}!Calcolo\+Errore.\+m@{Calcolo\+Errore.\+m}}
+\subsubsection[{q\+\_\+matlab}]{\setlength{\rightskip}{0pt plus 5cm}q\+\_\+matlab =bin2num(quantizer(\mbox{[}24 21\mbox{]}),{\bf q\+\_\+matlab\+\_\+bin})}}\label{_calcolo_errore_8m_ae0ba6f87f318da799b999bc44504e445}
+\hypertarget{_calcolo_errore_8m_af2824fe5b103500c8f44114732ab01e6}{\index{Calcolo\+Errore.\+m@{Calcolo\+Errore.\+m}!q\+\_\+matlab\+\_\+bin@{q\+\_\+matlab\+\_\+bin}}
+\index{q\+\_\+matlab\+\_\+bin@{q\+\_\+matlab\+\_\+bin}!Calcolo\+Errore.\+m@{Calcolo\+Errore.\+m}}
+\subsubsection[{q\+\_\+matlab\+\_\+bin}]{\setlength{\rightskip}{0pt plus 5cm}q\+\_\+matlab\+\_\+bin = {\bf dataset}(4\+:4\+:end)}}\label{_calcolo_errore_8m_af2824fe5b103500c8f44114732ab01e6}
+\hypertarget{_calcolo_errore_8m_aef958b87ed02ad2a876d2e5160ed0650}{\index{Calcolo\+Errore.\+m@{Calcolo\+Errore.\+m}!q\+\_\+vivado@{q\+\_\+vivado}}
+\index{q\+\_\+vivado@{q\+\_\+vivado}!Calcolo\+Errore.\+m@{Calcolo\+Errore.\+m}}
+\subsubsection[{q\+\_\+vivado}]{\setlength{\rightskip}{0pt plus 5cm}q\+\_\+vivado =bin2num(quantizer(\mbox{[}24 21\mbox{]}),{\bf q\+\_\+vivado\+\_\+bin})}}\label{_calcolo_errore_8m_aef958b87ed02ad2a876d2e5160ed0650}
+\hypertarget{_calcolo_errore_8m_a86c185cb9619b1646488d659e5bc4648}{\index{Calcolo\+Errore.\+m@{Calcolo\+Errore.\+m}!q\+\_\+vivado\+\_\+bin@{q\+\_\+vivado\+\_\+bin}}
+\index{q\+\_\+vivado\+\_\+bin@{q\+\_\+vivado\+\_\+bin}!Calcolo\+Errore.\+m@{Calcolo\+Errore.\+m}}
+\subsubsection[{q\+\_\+vivado\+\_\+bin}]{\setlength{\rightskip}{0pt plus 5cm}q\+\_\+vivado\+\_\+bin = {\bf out}(2\+:2\+:end)}}\label{_calcolo_errore_8m_a86c185cb9619b1646488d659e5bc4648}
+\hypertarget{_calcolo_errore_8m_adf1f3edb9115acb0a1e04209b7a9937b}{\index{Calcolo\+Errore.\+m@{Calcolo\+Errore.\+m}!T@{T}}
+\index{T@{T}!Calcolo\+Errore.\+m@{Calcolo\+Errore.\+m}}
+\subsubsection[{T}]{\setlength{\rightskip}{0pt plus 5cm}T = table({\bf m\+\_\+matlab}, {\bf q\+\_\+matlab},{\bf m\+\_\+vivado},{\bf q\+\_\+vivado}, {\bf error\+\_\+abs\+\_\+m}, {\bf error\+\_\+abs\+\_\+q}, {\bf error\+\_\+rel\+\_\+m}, {\bf error\+\_\+rel\+\_\+q})}}\label{_calcolo_errore_8m_adf1f3edb9115acb0a1e04209b7a9937b}
+\hypertarget{_calcolo_errore_8m_a54143698f3805191fec1486e478ec51a}{\index{Calcolo\+Errore.\+m@{Calcolo\+Errore.\+m}!vivado\+\_\+output\+\_\+file@{vivado\+\_\+output\+\_\+file}}
+\index{vivado\+\_\+output\+\_\+file@{vivado\+\_\+output\+\_\+file}!Calcolo\+Errore.\+m@{Calcolo\+Errore.\+m}}
+\subsubsection[{vivado\+\_\+output\+\_\+file}]{\setlength{\rightskip}{0pt plus 5cm}vivado\+\_\+output\+\_\+file = 'output\+Post\+Imp.\+txt'}}\label{_calcolo_errore_8m_a54143698f3805191fec1486e478ec51a}

@@ -1,0 +1,405 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.8"/>
+<title>Linear Regression: Design Unit Members - Variabili</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Linear Regression
+   </div>
+   <div id="projectbrief">Linear Regression IP-core in VHDL</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generato da Doxygen 1.8.8 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Cerca');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Pagina&#160;Principale</span></a></li>
+      <li><a href="modules.html"><span>Moduli</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Design&#160;Unit&#160;List</span></a></li>
+      <li><a href="files.html"><span>File</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Cerca" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Design&#160;Unit&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Design&#160;Units</span></a></li>
+      <li><a href="inherits.html"><span>Design&#160;Unit&#160;Hierarchy</span></a></li>
+      <li class="current"><a href="functions.html"><span>Design&#160;Unit&#160;Members</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow3" class="tabs2">
+    <ul class="tablist">
+      <li><a href="functions.html"><span>Tutto</span></a></li>
+      <li><a href="functions_func.html"><span>Functions/Procedures/Processes</span></a></li>
+      <li class="current"><a href="functions_vars.html"><span>Variabili</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow4" class="tabs3">
+    <ul class="tablist">
+      <li><a href="#index_a"><span>a</span></a></li>
+      <li><a href="#index_b"><span>b</span></a></li>
+      <li><a href="#index_c"><span>c</span></a></li>
+      <li><a href="#index_d"><span>d</span></a></li>
+      <li><a href="#index_e"><span>e</span></a></li>
+      <li><a href="#index_f"><span>f</span></a></li>
+      <li><a href="#index_g"><span>g</span></a></li>
+      <li><a href="#index_i"><span>i</span></a></li>
+      <li><a href="#index_l"><span>l</span></a></li>
+      <li><a href="#index_m"><span>m</span></a></li>
+      <li><a href="#index_n"><span>n</span></a></li>
+      <li><a href="#index_p"><span>p</span></a></li>
+      <li><a href="#index_q"><span>q</span></a></li>
+      <li><a href="#index_r"><span>r</span></a></li>
+      <li><a href="#index_s"><span>s</span></a></li>
+      <li><a href="#index_t"><span>t</span></a></li>
+      <li class="current"><a href="#index_w"><span>w</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('functions_vars.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tutto</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classi</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>File</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Funzioni</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variabili</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Gruppi</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="contents">
+&#160;
+
+<h3><a class="anchor" id="index_a"></a>- a -</h3><ul>
+<li>A
+: <a class="el" href="group___linear_regression.html#gae1ad6503d157f6c26abdce1131d31ec2">LinearRegression</a>
+</li>
+<li>a_buff0
+: <a class="el" href="group___linear_regression.html#gacd3d8e92fe616148f1e148b474c065d5">LinearRegression.Structural</a>
+</li>
+<li>A_buff1
+: <a class="el" href="group___linear_regression.html#ga0b1d7216ccdaa159c21444c410f676a4">LinearRegression.Structural</a>
+</li>
+<li>A_buff2
+: <a class="el" href="group___linear_regression.html#ga4dc688dc5e1ddabfe74823107d9f643e">LinearRegression.Structural</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_b"></a>- b -</h3><ul>
+<li>B
+: <a class="el" href="group___linear_regression.html#gab6685be06ffd9f2425d01307287a4454">LinearRegression</a>
+</li>
+<li>b_buff0
+: <a class="el" href="group___linear_regression.html#ga57cfc074edece68bd9f101450a41c749">LinearRegression.Structural</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_c"></a>- c -</h3><ul>
+<li>C
+: <a class="el" href="group___linear_regression.html#ga17058a6bcb609074c49be51d09202870">LinearRegression</a>
+</li>
+<li>c_buff0
+: <a class="el" href="group___linear_regression.html#ga41b9aecdd19c390ca6c709455261ebab">LinearRegression.Structural</a>
+</li>
+<li>clk
+: <a class="el" href="group___linear_regression.html#ga4a4609c199d30b3adebbeb3a01276ec5">LinearRegression</a>
+</li>
+<li>clock
+: <a class="el" href="group___generic_buffer.html#gadfc2d5e995e9c6876b2e55bf6a5c4071">GenericBuffer</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_d"></a>- d -</h3><ul>
+<li>data_in
+: <a class="el" href="group___generic_buffer.html#ga597910698848749da5951285c85fa4f9">GenericBuffer</a>
+</li>
+<li>data_out
+: <a class="el" href="group___generic_buffer.html#ga0bf60a72cb11ffe1945b82ce0bb86a57">GenericBuffer</a>
+</li>
+<li>diff
+: <a class="el" href="group___subtractor.html#ga0fa68103d429fdc11539b6baa81d0d0d">subtractor</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_e"></a>- e -</h3><ul>
+<li>edge
+: <a class="el" href="group___generic_buffer.html#ga9079dbf8b7827a9cf522497d56994375">GenericBuffer</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_f"></a>- f -</h3><ul>
+<li>factor1
+: <a class="el" href="group___multiplier.html#gac728adecdbfe10213256c17c1b5c5128">multiplier</a>
+</li>
+<li>factor2
+: <a class="el" href="group___multiplier.html#gac140852334303b430bbd49689cc689dd">multiplier</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_g"></a>- g -</h3><ul>
+<li>GenericBuffer
+: <a class="el" href="group___linear_regression.html#ga26754353fa942392a9799290b42c41c7">LinearRegression.Structural</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_i"></a>- i -</h3><ul>
+<li>ieee
+: <a class="el" href="classautomatic__tb.html#a0a6af6eef40212dbaf130d57ce711256">automatic_tb</a>
+, <a class="el" href="group___generic_buffer.html#ga0a6af6eef40212dbaf130d57ce711256">GenericBuffer</a>
+, <a class="el" href="group___linear_regression.html#ga0a6af6eef40212dbaf130d57ce711256">LinearRegression</a>
+, <a class="el" href="group___subtractor.html#ga0a6af6eef40212dbaf130d57ce711256">subtractor</a>
+</li>
+<li>IEEE
+: <a class="el" href="classtb___linear_regression.html#ae4f03c286607f3181e16b9aa12d0c6d4">tb_LinearRegression</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_l"></a>- l -</h3><ul>
+<li>LinearRegression
+: <a class="el" href="classautomatic__tb_1_1behavioral.html#a899499ba78b32b936cd0914831a72c95">automatic_tb.behavioral</a>
+, <a class="el" href="classtb___linear_regression_1_1_behavioral.html#a899499ba78b32b936cd0914831a72c95">tb_LinearRegression.Behavioral</a>
+</li>
+<li>load
+: <a class="el" href="group___generic_buffer.html#gaba761f7740d0b6257a0e283b3734ddbf">GenericBuffer</a>
+, <a class="el" href="group___linear_regression.html#gaba761f7740d0b6257a0e283b3734ddbf">LinearRegression</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_m"></a>- m -</h3><ul>
+<li>m
+: <a class="el" href="group___linear_regression.html#gad943f01112876248a4734aa3c3d2e3f2">LinearRegression</a>
+</li>
+<li>mult1_out
+: <a class="el" href="group___linear_regression.html#ga47ffff025ca221db798ee154ae332d1e">LinearRegression.Structural</a>
+</li>
+<li>mult2_out
+: <a class="el" href="group___linear_regression.html#gac6c586bcd10a70e181cf575558678c99">LinearRegression.Structural</a>
+</li>
+<li>mult3_out
+: <a class="el" href="group___linear_regression.html#gafc18f2d32e281bafbb9ecebb30a79221">LinearRegression.Structural</a>
+</li>
+<li>mult4_out
+: <a class="el" href="group___linear_regression.html#ga5a0832f93305c3e0a37293a00e17a538">LinearRegression.Structural</a>
+</li>
+<li>multiplier
+: <a class="el" href="group___linear_regression.html#ga3cf9cbfc3e637ae0660c32ceef50386f">LinearRegression.Structural</a>
+</li>
+<li>multM_out
+: <a class="el" href="group___linear_regression.html#gae1fb15e247aa1abc0a406f879fbe6627">LinearRegression.Structural</a>
+</li>
+<li>multQ_out
+: <a class="el" href="group___linear_regression.html#gab45555807d57a057b5cd46161e28b6a5">LinearRegression.Structural</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_n"></a>- n -</h3><ul>
+<li>nbits
+: <a class="el" href="group___subtractor.html#gae1435c07d0cd54b521535e2f8de6f94e">subtractor</a>
+</li>
+<li>nbits1
+: <a class="el" href="group___multiplier.html#ga4ede473cdc13e75fe66fbd548b62e432">multiplier</a>
+</li>
+<li>nbits2
+: <a class="el" href="group___multiplier.html#ga8b5bdaff4c3669528aaec95a07e17c2a">multiplier</a>
+</li>
+<li>numeric_std
+: <a class="el" href="classautomatic__tb.html#a2edc34402b573437d5f25fa90ba4013e">automatic_tb</a>
+, <a class="el" href="group___linear_regression.html#ga2edc34402b573437d5f25fa90ba4013e">LinearRegression</a>
+, <a class="el" href="group___subtractor.html#ga2edc34402b573437d5f25fa90ba4013e">subtractor</a>
+</li>
+<li>NUMERIC_STD
+: <a class="el" href="classtb___linear_regression.html#ae00f3f04545af57582ff10609eee23e2">tb_LinearRegression</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_p"></a>- p -</h3><ul>
+<li>P1_buff1
+: <a class="el" href="group___linear_regression.html#gaa62b4451249556c1f9acb08b9bb1ba81">LinearRegression.Structural</a>
+</li>
+<li>P2_buff1
+: <a class="el" href="group___linear_regression.html#ga8f8c92d3996ed1be653d65bfa9a063da">LinearRegression.Structural</a>
+</li>
+<li>P3_buff1
+: <a class="el" href="group___linear_regression.html#ga70180d04f093d439774c11c332debaab">LinearRegression.Structural</a>
+</li>
+<li>P4_buff1
+: <a class="el" href="group___linear_regression.html#ga585547e50aaeb76d801f21626a57c3d2">LinearRegression.Structural</a>
+</li>
+<li>prim
+: <a class="el" href="group___linear_regression.html#ga334647776cbf92a6f58a9e709678a597">LinearRegression</a>
+</li>
+<li>prim_buff0
+: <a class="el" href="group___linear_regression.html#ga2f2ba1395426f682c5257c7549946eba">LinearRegression.Structural</a>
+</li>
+<li>prod
+: <a class="el" href="group___multiplier.html#gaf168dc69ad77dc5791b5e0f99dcfb0a9">multiplier</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_q"></a>- q -</h3><ul>
+<li>q
+: <a class="el" href="group___linear_regression.html#gacec4f4b6d139d1ada088ca2d3d881418">LinearRegression</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_r"></a>- r -</h3><ul>
+<li>reset_n
+: <a class="el" href="group___generic_buffer.html#ga446ea52ed8c4a84181a47d9165ce41a5">GenericBuffer</a>
+, <a class="el" href="group___linear_regression.html#ga446ea52ed8c4a84181a47d9165ce41a5">LinearRegression</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_s"></a>- s -</h3><ul>
+<li>S5
+: <a class="el" href="group___linear_regression.html#gaf847f35901bdae7b10eff5f0576735ec">LinearRegression.Structural</a>
+</li>
+<li>S5_buff2
+: <a class="el" href="group___linear_regression.html#ga549acc079099c46203bf0354c074168e">LinearRegression.Structural</a>
+</li>
+<li>S6
+: <a class="el" href="group___linear_regression.html#gaad1e5951d0d38888c5deafab1b89df1a">LinearRegression.Structural</a>
+</li>
+<li>S6_buff2
+: <a class="el" href="group___linear_regression.html#ga83f2ab4c9d8081134917130650ea5756">LinearRegression.Structural</a>
+</li>
+<li>std_logic_1164
+: <a class="el" href="classautomatic__tb.html#acd03516902501cd1c7296a98e22c6fcb">automatic_tb</a>
+, <a class="el" href="group___generic_buffer.html#gacd03516902501cd1c7296a98e22c6fcb">GenericBuffer</a>
+, <a class="el" href="group___linear_regression.html#gacd03516902501cd1c7296a98e22c6fcb">LinearRegression</a>
+, <a class="el" href="group___subtractor.html#gacd03516902501cd1c7296a98e22c6fcb">subtractor</a>
+</li>
+<li>STD_LOGIC_1164
+: <a class="el" href="classtb___linear_regression.html#aa4b2b25246a821511120e3149b003563">tb_LinearRegression</a>
+</li>
+<li>std_logic_textio
+: <a class="el" href="classautomatic__tb.html#abc7d7fc2675847e1d861e3fda2b1990c">automatic_tb</a>
+</li>
+<li>sub1
+: <a class="el" href="group___subtractor.html#ga49536ce3d87a5522d2d82cc34985d648">subtractor</a>
+</li>
+<li>sub2
+: <a class="el" href="group___subtractor.html#ga0c49fa677895a036f45dd76f988d18c5">subtractor</a>
+</li>
+<li>subtractor
+: <a class="el" href="group___linear_regression.html#ga11e2a27abb1e6d6d48bbaae0f5de7aeb">LinearRegression.Structural</a>
+</li>
+<li>Sum1
+: <a class="el" href="group___linear_regression.html#ga43a9a0da4f44006af5631ed5ee8ad924">LinearRegression</a>
+</li>
+<li>sum1_buff0
+: <a class="el" href="group___linear_regression.html#ga105472cae8c43a185e95b2b4015eef7e">LinearRegression.Structural</a>
+</li>
+<li>Sum2
+: <a class="el" href="group___linear_regression.html#ga4c98819455589b84c5e250a97e9bdfa1">LinearRegression</a>
+</li>
+<li>sum2_buff0
+: <a class="el" href="group___linear_regression.html#ga78bc8ef63466051b7ffb10623742f533">LinearRegression.Structural</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_t"></a>- t -</h3><ul>
+<li>textio
+: <a class="el" href="classautomatic__tb.html#aa8c4e25998323a84db5b1fa701b92fcb">automatic_tb</a>
+</li>
+<li>tmp
+: <a class="el" href="group___generic_buffer.html#gab94e66105790803865249c33633e359f">GenericBuffer.Behavioral</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_w"></a>- w -</h3><ul>
+<li>width
+: <a class="el" href="group___generic_buffer.html#gae47d961480346c1d82439a66505e6e7d">GenericBuffer</a>
+</li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generato Mar 11 Lug 2017 16:50:47 per Linear Regression da
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
+  </ul>
+</div>
+</body>
+</html>
